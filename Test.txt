@@ -1,7 +1,7 @@
-Età_1
-Età_1 Rischio_1 <=23 Tipo_1 >23
-Rischio_1 END_1 =A
-Tipo_1 Rischio_2 =Sports Rischio_3 =Truck Rischio_4 =Family
-Rischio_2 END_2 =A
-Rischio_3 END_3 =B
-Rischio_4 END_4 =B
+Age_1
+Age_1 Risk_1 <=23 Type_1 >23
+Risk_1 END_1 =A
+Type_1 Risk_2 =Sports Risk_3 =Truck Risk_4 =Family
+Risk_2 END_2 =A
+Risk_3 END_3 =B
+Risk_4 END_4 =B
