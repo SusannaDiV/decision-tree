@@ -10,19 +10,30 @@ On the quantitative variables are present the equality relations (equal and diff
 The first line of the file must contain the label of the root and the following lines must contain as the first label that of a node (which must already have been listed before) followed by the label pairs of one of its children and the corresponding label that represents the condition of the arc. In order not to complicate things too much, node labels and conditions are strings that do not contain the space character. Conditions are strings that begin with a relational operator between the following {=, ≠, <,>, <=,> =} followed by a value of a variable (in the case of the example the values of the variable Age are numbers integers, while the values of the Type variable are Sportiva, Truck and Family strings.
 
 *root* 
-*root node1 cond1 node2 cond2 node3 cond3* 
+
+*root node1 cond1 node2 cond2 node3 cond3*
+
 *node1 node4 cond4 node5 cond5 node6 cond6 .......* 
+
 *node2 node7 cond7 node8 cond8 node9 cond9 .......*
+
 
 In our Test.txt file, the exmaple input is as follows:
 
 *Age_1* 
+
 *Age_1 Risk_1 <=23 Type_1 >23*
+
 *Risk_1 END_1 =A* 
+
 *Type_1 Risk_2 =Sports Risk_3 =Truck Risk_4 =Family* 
+
 *Risk_2 END_2 =A* 
+
 *Risk_3 END_3 =B* 
+
 *Risk_4 END_4 =B*
+
 
 **Functionalities of this Implementation**
 This C++ Decision Tree implementations allows users to:
