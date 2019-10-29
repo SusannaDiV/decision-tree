@@ -37,7 +37,8 @@ In our Test.txt file, the exmaple input is as follows:
 
 **Functionalities of this Implementation**
 This C++ Decision Tree implementations allows users to:
-1. read a decision tree from file and modify it with the operations delete node, add node, edit node; 2. display the decision tree in a textual way on the terminal; 
+1. read a decision tree from file and modify it with the operations delete node, add node, edit node; 
+2. display the decision tree in a textual way on the terminal; 
 3. infer and view the decision tree variables (in our example in the figure the program displays Age, Risk and Type); 
 4. carry out a prediction starting from a previously entered decision tree. In particular, the program asks the user, one at a time, the values to be associated with the variables during the path leading to the prediction; 
 5. carry out a prediction starting from a previously inserted decision tree and from a set of variable values. The program requests a set of pairs (variable, value) separated with a ';'.
