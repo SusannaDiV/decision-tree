@@ -18,7 +18,7 @@ The first line of the file must contain the label of the root and the following 
 *node2 node7 cond7 node8 cond8 node9 cond9 .......*
 
 
-In our Test.txt file, the exmaple input is as follows:
+In our Test.txt file, the example input is as follows:
 
 *Age_1* 
 
@@ -44,4 +44,5 @@ This C++ Decision Tree implementations allows users to:
 5. carry out a prediction starting from a previously inserted decision tree and from a set of variable values. The program requests a set of pairs (variable, value) separated with a ';'.
 
 **Handling of special cases**
+
 There may be cases, depending on the input, in which there is ***more than one true condition on the edges*** (for example if we have two conditions a = 5 and a > 4 on the two edges and the value of 'a' is equal to '5') or cases where ***none condition is true*** (for example when we have the conditions a = 5 and a > 5 on the only two edges and the value of 'a' is '4'). In the first case the program will randomly choose one of the arcs that have the true condition. In the second case the program will print the text: "the prediction cannot take place because there is a node for which there is no viable arc".
